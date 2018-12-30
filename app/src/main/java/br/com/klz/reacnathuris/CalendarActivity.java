@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import br.com.klz.reacnathuris.activities.menus.MenuGeralActivity;
+
 public class CalendarActivity extends AppCompatActivity {
 
     private Button agendar;
@@ -34,7 +36,7 @@ public class CalendarActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        agendar = findViewById( R.id.btn_agendar_calendar );
+        agendar = findViewById( R.id.btn_agendar_paciente );
         menu = findViewById( R.id.btn_voltar_menu );
     }
 

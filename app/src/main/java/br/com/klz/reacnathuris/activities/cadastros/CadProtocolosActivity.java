@@ -1,35 +1,37 @@
-package br.com.klz.reacnathuris;
+package br.com.klz.reacnathuris.activities.cadastros;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CadComplementoPacientesActivity extends AppCompatActivity {
+import br.com.klz.reacnathuris.activities.menus.MenuGeralActivity;
+import br.com.klz.reacnathuris.R;
+
+public class CadProtocolosActivity extends AppCompatActivity {
 
     private Button salvar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_cad_complemento_pacientes );
+        setContentView( R.layout.activity_cad_protocolos );
 
         initViews();
 
         salvar.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 abrirMenuGeral();
+
             }
         } );
-
-
     }
 
     private void initViews() {
-        salvar = findViewById( R.id.btn_salvar );
+        salvar = findViewById( R.id.btn_salvar_protocolo );
     }
 
     private void abrirMenuGeral(){

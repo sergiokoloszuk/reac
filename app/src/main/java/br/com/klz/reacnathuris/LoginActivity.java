@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import br.com.klz.reacnathuris.activities.menus.MenuGeralActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     private Button btnLogin;

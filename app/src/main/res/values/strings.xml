@@ -2,8 +2,16 @@
     <string name="adicionar">Adicionar</string>
     <string name="agenda">Agenda</string>
     <string name="agendar">Agendar</string>
+    <string name="agendar_equipamento">Agendar equipamento</string>
+    <string name="agendar_paciente">Agendar paciente</string>
     <string name="anamnese">Anamnese</string>
+    <string name="anamnese_depressao">Anamnese Depressão</string>
+    <string name="anamnese_panico">Anamnese Síndrome do Pânico</string>
+    <string name="anamnese_autismo">Anamnese Autismo</string>
+    <string name="anamnese_dor">Anamnese Dor Crônica</string>
+    <string name="anamnese_outros">Anamnese Outros</string>
     <string name="app_name">Reac Nathuris</string>
+    <string name="autismo">Autismo</string>
     <string name="bairro">Bairro</string>
     <string name="cadastros">Cadastros</string>
     <string name="CEP">CEP</string>
@@ -15,6 +23,8 @@
     <string name="dados_responsável">Dados do Responsável</string>
     <string name="data_atendimento">Data do Atendimento</string>
     <string name="data_nascimento">Data de Nascimento</string>
+    <string name="depressao">Depressão</string>
+    <string name="dor_cronica">Dor crônica</string>
     <string name="editar">Editar</string>
     <string name="endereco">Endereço</string>
     <string name="entrar">Entrar</string>
@@ -37,7 +47,10 @@
     <string name="numero">Nº</string>
     <string name="numero_max_dia">Número max aplic dia</string>
     <string name="numero_total_aplic_protocol">Total de aplicações do tratamento</string>
+    <string name="outros">Outros</string>
     <string name="pacientes">Pacientes</string>
+    <string name="paciente_diagnosticado">Paciente diagnosticado com...</string>
+    <string name="panico">Síndrome do Pânico</string>
     <string name="protocolos">Protocolos</string>
     <string name="registrar">Registrar</string>
     <string name="registros_vendas">Registros de Vendas</string>
@@ -45,4 +58,6 @@
     <string name="senha">Senha</string>
     <string name="sobrenome">Sobrenome</string>
     <string name="unidades">Unidades de Atendimento</string>
+    <string name="voltar_anamnese">Menu anamnese</string>
+    <string name="voltar_menu">Menu geral</string>
 </resources>

@@ -1,11 +1,15 @@
-package br.com.klz.reacnathuris;
+package br.com.klz.reacnathuris.activities.menus;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import br.com.klz.reacnathuris.CalendarActivity;
+import br.com.klz.reacnathuris.R;
+import br.com.klz.reacnathuris.activities.menus.MenuAnamneseActivity;
+import br.com.klz.reacnathuris.activities.menus.MenuCadastrosActivity;
 
 public class MenuGeralActivity extends AppCompatActivity {
 
@@ -35,6 +39,12 @@ public class MenuGeralActivity extends AppCompatActivity {
                 abrirCalendar();
             }
         } );
+        anamnese.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirMenuAnamnese();
+            }
+        } );
     }
 
     private void initViews() {
@@ -56,6 +66,13 @@ public class MenuGeralActivity extends AppCompatActivity {
     private void abrirCalendar(){
 
         Intent intent = new Intent( getApplicationContext(),CalendarActivity.class );
+        startActivity(intent);
+        finish();
+    }
+
+    private void abrirMenuAnamnese(){
+
+        Intent intent = new Intent( getApplicationContext(),MenuAnamneseActivity.class );
         startActivity(intent);
         finish();
     }

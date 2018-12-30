@@ -24,31 +24,47 @@
             android:name=".RegisterActivity"
             android:label="@string/registrar" />
         <activity
-            android:name=".MenuGeralActivity"
+            android:name=".activities.menus.MenuGeralActivity"
             android:label="@string/menu" />
         <activity
-            android:name=".MenuCadastrosActivity"
+            android:name=".activities.menus.MenuCadastrosActivity"
             android:label="@string/cadastros" />
         <activity
-            android:name=".CadPacientesActivity"
+            android:name=".activities.cadastros.CadPacientesActivity"
             android:label="@string/pacientes" />
         <activity
-            android:name=".CadComplementoPacientesActivity"
+            android:name=".activities.cadastros.CadComplementoPacientesActivity"
             android:label="@string/pacientes" />
         <activity
-            android:name=".CadUnidadesActivity"
+            android:name=".activities.cadastros.CadUnidadesActivity"
             android:label="@string/unidades" />
         <activity
-            android:name=".CadProtocolosActivity"
+            android:name=".activities.cadastros.CadProtocolosActivity"
             android:label="@string/protocolos" />
         <activity
             android:name=".CalendarActivity"
-            android:label="@string/agenda">
-        </activity>
+            android:label="@string/agenda" />
         <activity
             android:name=".AgendarAtendimentoActivity"
-            android:label="@string/agenda">
-        </activity>
+            android:label="@string/agenda" />
+        <activity
+            android:name=".activities.menus.MenuAnamneseActivity"
+            android:label="@string/paciente_diagnosticado" />
+        <activity
+            android:name=".activities.perguntas.PerguntasDepressaoActivity"
+            android:label="@string/anamnese_depressao"/>
+        <activity
+            android:name=".activities.perguntas.PerguntasPanicoActivity"
+            android:label="@string/anamnese_panico"/>
+        <activity
+            android:name=".activities.perguntas.PerguntasAutismoActivity"
+            android:label="@string/anamnese_autismo"/>
+        <activity
+            android:name=".activities.perguntas.PerguntasDorActivity"
+            android:label="@string/anamnese_dor"/>
+        <activity
+            android:name=".activities.perguntas.PerguntasOutrosActivity"
+            android:label="@string/anamnese_outros"></activity>
     </application>
 
 </manifest>
