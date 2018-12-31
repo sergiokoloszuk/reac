@@ -1,4 +1,4 @@
-package br.com.klz.reacnathuris;
+package br.com.klz.reacnathuris.activities.Calendar;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import br.com.klz.reacnathuris.R;
+import br.com.klz.reacnathuris.activities.Calendar.AgendarAtendimentoActivity;
 import br.com.klz.reacnathuris.activities.menus.MenuGeralActivity;
 
-public class CalendarActivity extends AppCompatActivity {
+public class CalendarioActivity extends AppCompatActivity {
 
     private Button agendar;
     private Button menu;
@@ -16,7 +18,7 @@ public class CalendarActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_calendar );
+        setContentView( R.layout.activity_calendario );
 
         initViews();
 

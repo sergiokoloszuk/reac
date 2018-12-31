@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import br.com.klz.reacnathuris.CalendarActivity;
+import br.com.klz.reacnathuris.activities.Calendar.CalendarioActivity;
 import br.com.klz.reacnathuris.R;
-import br.com.klz.reacnathuris.activities.menus.MenuAnamneseActivity;
-import br.com.klz.reacnathuris.activities.menus.MenuCadastrosActivity;
 
 public class MenuGeralActivity extends AppCompatActivity {
 
@@ -45,6 +43,12 @@ public class MenuGeralActivity extends AppCompatActivity {
                 abrirMenuAnamnese();
             }
         } );
+        financeiro.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirMenuResultados();
+            }
+        } );
     }
 
     private void initViews() {
@@ -65,7 +69,7 @@ public class MenuGeralActivity extends AppCompatActivity {
 
     private void abrirCalendar(){
 
-        Intent intent = new Intent( getApplicationContext(),CalendarActivity.class );
+        Intent intent = new Intent( getApplicationContext(),CalendarioActivity.class );
         startActivity(intent);
         finish();
     }
@@ -73,6 +77,12 @@ public class MenuGeralActivity extends AppCompatActivity {
     private void abrirMenuAnamnese(){
 
         Intent intent = new Intent( getApplicationContext(),MenuAnamneseActivity.class );
+        startActivity(intent);
+        finish();
+    }
+    private void abrirMenuResultados(){
+
+        Intent intent = new Intent( getApplicationContext(),MenuResultadosActivity.class );
         startActivity(intent);
         finish();
     }

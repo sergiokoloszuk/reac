@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.Login.LoginActivity"
             android:label="@string/login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activities.Login.RegisterActivity"
             android:label="@string/registrar" />
         <activity
             android:name=".activities.menus.MenuGeralActivity"
@@ -42,29 +42,41 @@
             android:name=".activities.cadastros.CadProtocolosActivity"
             android:label="@string/protocolos" />
         <activity
-            android:name=".CalendarActivity"
+            android:name=".activities.Calendar.CalendarioActivity"
             android:label="@string/agenda" />
         <activity
-            android:name=".AgendarAtendimentoActivity"
+            android:name=".activities.Calendar.AgendarAtendimentoActivity"
             android:label="@string/agenda" />
         <activity
             android:name=".activities.menus.MenuAnamneseActivity"
             android:label="@string/paciente_diagnosticado" />
         <activity
             android:name=".activities.perguntas.PerguntasDepressaoActivity"
-            android:label="@string/anamnese_depressao"/>
+            android:label="@string/anamnese_depressao" />
         <activity
             android:name=".activities.perguntas.PerguntasPanicoActivity"
-            android:label="@string/anamnese_panico"/>
+            android:label="@string/anamnese_panico" />
         <activity
             android:name=".activities.perguntas.PerguntasAutismoActivity"
-            android:label="@string/anamnese_autismo"/>
+            android:label="@string/anamnese_autismo" />
         <activity
             android:name=".activities.perguntas.PerguntasDorActivity"
-            android:label="@string/anamnese_dor"/>
+            android:label="@string/anamnese_dor" />
         <activity
             android:name=".activities.perguntas.PerguntasOutrosActivity"
-            android:label="@string/anamnese_outros"></activity>
+            android:label="@string/anamnese_outros" />
+        <activity
+            android:name=".activities.resultado.ReceitasActivity"
+            android:label="@string/incluir_receitas"/>
+        <activity
+            android:name=".activities.resultado.DespesasActivity"
+            android:label="@string/incluir_despesas"/>
+        <activity
+            android:name=".activities.resultado.ResultadoRateioActivity"
+            android:label="@string/resultado"/>
+        <activity
+            android:name=".activities.menus.MenuResultadosActivity"
+            android:label="Menu financeiro"></activity>
     </application>
 
 </manifest>

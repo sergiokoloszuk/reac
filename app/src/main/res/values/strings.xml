@@ -22,8 +22,12 @@
     <string name="controle_financeiro">Controle Financeiro</string>
     <string name="dados_responsável">Dados do Responsável</string>
     <string name="data_atendimento">Data do Atendimento</string>
+    <string name="data_lancamento">Data do Lançamento</string>
     <string name="data_nascimento">Data de Nascimento</string>
     <string name="depressao">Depressão</string>
+    <string name="descricao">Descrição</string>
+    <string name="digite_valor">Digite o valor</string>
+    <string name="incluir_despesas">Incluir Despesas</string>
     <string name="dor_cronica">Dor crônica</string>
     <string name="editar">Editar</string>
     <string name="endereco">Endereço</string>
@@ -33,10 +37,12 @@
     <string name="follow">Follow-Up</string>
     <string name="fone">Fone</string>
     <string name="hora_atendimento">Horário do Atendimento</string>
+    <string name="impostos">Impostos para subtrair</string>
     <string name="intervalo_entre_aplicações">Intervalo min entre aplicações</string>
     <string name="intervalo_entre_tratamentos">Intervalo entre tratamentos (meses)</string>
     <string name="intervalo_min_dias">Intervalo min entre dias</string>
     <string name="ir_complemento">Ir para complemento</string>
+    <string name="juros">Juros para subtrair</string>
     <string name="login">Login</string>
     <string name="menu">Menu</string>
     <string name="nome">Nome</string>
@@ -52,12 +58,15 @@
     <string name="paciente_diagnosticado">Paciente diagnosticado com...</string>
     <string name="panico">Síndrome do Pânico</string>
     <string name="protocolos">Protocolos</string>
+    <string name="incluir_receitas">Incluir Receitas</string>
     <string name="registrar">Registrar</string>
     <string name="registros_vendas">Registros de Vendas</string>
+    <string name="resultado">Resultado</string>
     <string name="salvar">Salvar</string>
     <string name="senha">Senha</string>
     <string name="sobrenome">Sobrenome</string>
     <string name="unidades">Unidades de Atendimento</string>
+    <string name="valor_liquido">Valor Líquido</string>
     <string name="voltar_anamnese">Menu anamnese</string>
     <string name="voltar_menu">Menu geral</string>
 </resources>

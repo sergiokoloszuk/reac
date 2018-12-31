@@ -14,9 +14,8 @@
         android:background="@drawable/login_background_gradient"
         tools:context=".activities.Login.LoginActivity">
 
-
         <Button
-            android:id="@+id/btn_anamnese_depressão"
+            android:id="@+id/btn_receitas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -25,15 +24,12 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/login_background_button_menu"
-            android:text="@string/depressao"
+            android:text="@string/incluir_receitas"
             android:textColor="@color/colorPrimaryDark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_anamnese_panico"
+            android:id="@+id/btn_despesas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -42,14 +38,14 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/login_background_button_menu"
-            android:text="@string/panico"
+            android:text="@string/incluir_despesas"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_anamnese_depressão" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_receitas" />
 
         <Button
-            android:id="@+id/btn_anamnese_autismo"
+            android:id="@+id/btn_resultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -58,46 +54,15 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/login_background_button_menu"
-            android:text="@string/autismo"
+            android:text="@string/resultado"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_anamnese_panico" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_despesas" />
+
 
         <Button
-            android:id="@+id/btn_anamnese_dor_cronica"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/login_background_button_menu"
-            android:text="@string/dor_cronica"
-            android:textColor="@color/colorPrimaryDark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_anamnese_autismo" />
-
-        <Button
-            android:id="@+id/btn_anamnese_outros"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/login_background_button_menu"
-            android:text="@string/outros"
-            android:textColor="@color/colorPrimaryDark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_anamnese_dor_cronica" />
-
-        <Button
-            android:id="@+id/btn_anamnese_voltar_menu"
+            android:id="@+id/btn_financeiro_voltar_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -110,7 +75,7 @@
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_anamnese_outros" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_resultado" />
 
 
 
