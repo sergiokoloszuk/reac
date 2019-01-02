@@ -49,8 +49,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="344dp"
-                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <android.support.design.widget.TextInputLayout
@@ -95,6 +95,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/confirme_senha" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textinput_register_unidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:passwordToggleEnabled="true">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/nome_unidade" />
                 </android.support.design.widget.TextInputLayout>
 
                 <Button

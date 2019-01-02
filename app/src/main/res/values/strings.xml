@@ -57,6 +57,7 @@
     <string name="pacientes">Pacientes</string>
     <string name="paciente_diagnosticado">Paciente diagnosticado com...</string>
     <string name="panico">Síndrome do Pânico</string>
+    <string name="porcentagem_rateio">Porcentagem rateio</string>
     <string name="protocolos">Protocolos</string>
     <string name="incluir_receitas">Incluir Receitas</string>
     <string name="registrar">Registrar</string>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "469944371037",
+    "firebase_url": "https://reacnathuris.firebaseio.com",
+    "project_id": "reacnathuris",
+    "storage_bucket": "reacnathuris.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469944371037:android:651ecdf54d44ba75",
+        "android_client_info": {
+          "package_name": "br.com.klz.reacnathuris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469944371037-0dfmtphsh98ro9mu15pb5b9nvf5cdsvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.klz.reacnathuris",
+            "certificate_hash": "f7d4c12d684cd9661ea7846d71b7e4e86fe25022"
+          }
+        },
+        {
+          "client_id": "469944371037-giakaco3gbl1fesr2v30suie3m0tv7s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmzWvfs4Z4CH7et5x1Unt_-IBcaGfYxWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469944371037-giakaco3gbl1fesr2v30suie3m0tv7s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
